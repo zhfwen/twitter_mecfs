@@ -20,7 +20,7 @@ Contains the 7z file of the 3 raw datasets that contained all tweets used for an
 Contains 92 (0-91) chunked datasets where each chunk contains at most 10,000 tweets. These datasets need to be generated using code from section 4.2. Originally these were calculated in parallel using computing power from the Digital Research Alliance of Canada. If only 1 GPU is available, expect approximately 2 months for the calculation of all SHAP values depending on the processing power available.
 
 ## lda_figures/
-After 5.2, all resulting figures and the description csv will be in this directory.
+After 5.2, all resulting figures (and tables) and the description csv will be in this directory.
 
 ## lda_results/
 Contains the .pkl files of the LDA models when 5.1 is ran.
@@ -29,7 +29,7 @@ Contains the .pkl files of the LDA models when 5.1 is ran.
 Contains .csv files of the sentiment probabilities and classifications of all tweets from RoBERTa (2.1) or Bing Liu Lexicon (2.2).
 
 ## shap_figures/
-Contains all SHAP figures from 4.4.
+Contains all SHAP figures (and tables) from 4.4.
 
 ## shap_results/
 Contains all .pkl files of SHAP Explanation objects from each dataset chunk (from 4.2). After 4.3, a csv file will be generated, containing the SHAP values for all features from all tweets. This file will be approximately 10GB with ~90 million rows.
